@@ -24,6 +24,7 @@ cmake .. -G "Ninja" ^
     -DVTK_HAS_FEENABLEEXCEPT:BOOL=OFF ^
     -DVTK_RENDERING_BACKEND=OpenGL2 ^
     -DModule_vtkRenderingMatplotlib=ON ^
+    -DModule_vtkxdmf2:BOOL=ON ^
     -DVTK_USE_SYSTEM_ZLIB:BOOL=ON ^
     -DVTK_USE_SYSTEM_FREETYPE:BOOL=ON ^
     -DVTK_USE_SYSTEM_LIBXML2:BOOL=ON ^
